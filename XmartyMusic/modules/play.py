@@ -1,4 +1,4 @@
-# XmartyMusic (Telegram bot project)
+# XCobrAMusic (Telegram bot project)
 # Copyright (C) 2021  TheHamkerCat (Python_ARQ)
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as
@@ -484,10 +484,10 @@ async def play(_, message: Message):
                 try:
                     await USER.join_chat(invitelink)
                     await USER.send_message(
-                        message.chat.id, "Xmarty joined this group for playing music in VC"
+                        message.chat.id, "XCobrA joined this group for playing music in VC"
                     )
                     await lel.edit(
-                        "<b>Xmarty helper userbot joined your chat</b>",
+                        "<b>XCobrA helper userbot joined your chat</b>",
                     )
 
                 except UserAlreadyParticipant:
@@ -559,7 +559,7 @@ async def play(_, message: Message):
         )
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://telegra.ph/file/f6086f8909fbfeb0844f2.png"
+        thumb_name = "https://te.legra.ph/file/85954f386aa7195ef3dc4.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -811,10 +811,10 @@ async def ytplay(_, message: Message):
                 try:
                     await USER.join_chat(invitelink)
                     await USER.send_message(
-                        message.chat.id, "Xmarty joined this group for playing music in VC"
+                        message.chat.id, "XCobrA joined this group for playing music in VC"
                     )
                     await lel.edit(
-                        "<b>Xmarty helper userbot joined your chat</b>",
+                        "<b>XCobrA helper userbot joined your chat</b>",
                     )
 
                 except UserAlreadyParticipant:
@@ -966,10 +966,10 @@ async def jiosaavn(client: Client, message_: Message):
                 try:
                     await USER.join_chat(invitelink)
                     await USER.send_message(
-                        message_.chat.id, "Xmarty joined this group for playing music in VC"
+                        message_.chat.id, "XCobrA joined this group for playing music in VC"
                     )
                     await lel.edit(
-                        "<b>Xmarty helper userbot joined your chat</b>",
+                        "<b>XCobrA helper userbot joined your chat</b>",
                     )
 
                 except UserAlreadyParticipant:
@@ -978,7 +978,7 @@ async def jiosaavn(client: Client, message_: Message):
                     # print(e)
                     await lel.edit(
                         f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} couldn't join your group due to heavy requests for userbot! Make sure user is not banned in group."
-                        "\n\nOr manually add @XmartyMusic to your Group and try again</b>",
+                        "\n\nOr manually add @CobrAMusic to your Group and try again</b>",
                     )
     try:
         await USER.get_chat(chid)
@@ -1025,7 +1025,7 @@ async def jiosaavn(client: Client, message_: Message):
             ],
             [
                 InlineKeyboardButton(
-                    text="Join Support Group", url=f"https://t.me/Xmarty_Support"
+                    text="Join Support Group", url=f"https://t.me/clan8xofficial"
                 )
             ],
             [InlineKeyboardButton(text="❌ Close", callback_data="cls")],
