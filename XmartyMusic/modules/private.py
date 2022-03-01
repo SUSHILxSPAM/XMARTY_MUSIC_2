@@ -3,7 +3,7 @@ import logging
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
-from XmartyMusic.config import (
+from XCobrAMusic.config import (
     BOT_USERNAME,
     PROJECT_NAME,
     SOURCE_CODE,
@@ -43,7 +43,7 @@ def _start(client, message):
 @Client.on_message(filters.command("start") & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
     await message.reply_text(
-        f"""**🔴 XmartyMusic is online**""",
+        f"""**🔴 XCobrAMusic is online**""",
         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("💬 Support Chat", url=f"https://t.me/{SUPPORT_GROUP}")]])
     )
 
