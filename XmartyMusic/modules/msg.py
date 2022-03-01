@@ -13,7 +13,7 @@
 # You should have received a copy of the GNU Affero General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-from XmartyMusic.config import ASSISTANT_NAME, PROJECT_NAME
+from XCobrAMusic.config import ASSISTANT_NAME, PROJECT_NAME
 
 
 class Messages:
@@ -21,7 +21,7 @@ class Messages:
     HELP_MSG = [
         ".",
         f"""
-**Hey 👋 Welcome back to XmartyMusic
+**Hey 👋 Welcome back to XCobrAMusic
 
 ⚪️ {PROJECT_NAME} can play music in your group's voice chat as well as channel voice chats
 
@@ -104,7 +104,7 @@ channel is also can be used instead of c ( /cplay = /channelplay )
         f"""
 **=>> Song Download 🎸**
 
-- /video [song mame]: Download video song from youtube
+- /v [song mame]: Download video song from youtube
 - /song [song name]: Download audio song from youtube
 - /saavn [song name]: Download song from saavn
 - /deezer [song name]: Download song from deezer
